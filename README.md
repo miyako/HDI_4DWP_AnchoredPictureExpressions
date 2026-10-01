@@ -34,7 +34,9 @@ A "How Do I" (HDI) example for 4D Write Pro: anchored images whose content is dr
 
 - `Methods/TimestampPicture.4dm`: expression method (builds an SVG and returns a PNG); it must be allowed first:
   ```4d
-  SET ALLOWED METHODS(["TimestampPicture"])
+  ARRAY TEXT($methods; 0)
+  APPEND TO ARRAY($methods; "TimestampPicture")
+  SET ALLOWED METHODS($methods)
   ```
 - `Forms/HDI2/ObjectMethods/Button*.4dm`: the `WP Add picture` / `WP SET ATTRIBUTES` / `wk image expression` calls, one per expression type
 - `Methods/00_Start.4dm`: splash launched through `CALL WORKER` with non-blocking `DIALOG(...; *)`, reusing an already open window
