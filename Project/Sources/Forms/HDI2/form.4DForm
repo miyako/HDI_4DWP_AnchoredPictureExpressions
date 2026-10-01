@@ -1,0 +1,477 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 760,
+	"windowMaxWidth": 32000,
+	"windowMinHeight": 620,
+	"windowMaxHeight": 32000,
+	"width": 1000,
+	"height": 760,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Tab Control": {
+					"type": "tab",
+					"top": 20,
+					"left": 20,
+					"width": 960,
+					"height": 720,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						"Info",
+						"Add picture",
+						"Set attribute"
+					],
+					"action": "gotoPage",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Picture3": {
+					"type": "picture",
+					"top": 503,
+					"left": 165,
+					"width": 226,
+					"height": 136,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture3.png"
+				},
+				"Picture4": {
+					"type": "picture",
+					"top": 486,
+					"left": 420,
+					"width": 123,
+					"height": 170,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture4.png"
+				},
+				"Picture6": {
+					"type": "picture",
+					"top": 468,
+					"left": 588,
+					"width": 223,
+					"height": 203,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture6.png"
+				},
+				"Round Rectangle": {
+					"type": "rectangle",
+					"top": 506,
+					"left": 170,
+					"width": 220,
+					"height": 40,
+					"fill": "transparent",
+					"stroke": "#FF6347",
+					"strokeWidth": 3,
+					"borderRadius": 5
+				},
+				"Round Rectangle1": {
+					"type": "rectangle",
+					"top": 520,
+					"left": 411,
+					"width": 144,
+					"height": 40,
+					"fill": "transparent",
+					"stroke": "#FF6347",
+					"strokeWidth": 3,
+					"borderRadius": 5
+				},
+				"Round Rectangle2": {
+					"type": "rectangle",
+					"top": 513,
+					"left": 575,
+					"width": 246,
+					"height": 40,
+					"fill": "transparent",
+					"stroke": "#FF6347",
+					"strokeWidth": 3,
+					"borderRadius": 5
+				},
+				"WParea2": {
+					"type": "write",
+					"top": 80,
+					"left": 40,
+					"width": 920,
+					"height": 350,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "WParea",
+					"enterable": false,
+					"hideFocusRing": true,
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"showSelection": true,
+					"showHorizontalRuler": false,
+					"showVerticalRuler": false,
+					"layoutMode": "embedded",
+					"borderStyle": "none",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onSelectionChange",
+						"onAfterEdit"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"TxtInfo7": {
+					"type": "text",
+					"top": 600,
+					"left": 680,
+					"width": 280,
+					"height": 40,
+					"sizingX": "move",
+					"stroke": "#FF0000",
+					"class": "default",
+					"textAlign": "center",
+					"text": "Note: This method must be \"allowed\" first (see the code)"
+				},
+				"WParea": {
+					"type": "write",
+					"top": 90,
+					"left": 40,
+					"width": 620,
+					"height": 630,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "WParea",
+					"hideFocusRing": true,
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"showSelection": true,
+					"showHorizontalRuler": false,
+					"showVerticalRuler": false,
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onSelectionChange",
+						"onAfterEdit"
+					]
+				},
+				"Variable": {
+					"type": "input",
+					"top": 90,
+					"left": 710,
+					"width": 220,
+					"height": 110,
+					"sizingX": "move",
+					"dataSource": "vPicture",
+					"dataSourceTypeHint": "picture",
+					"pictureFormat": "truncatedCenter",
+					"dragging": "custom",
+					"method": "ObjectMethods/Variable.4dm",
+					"events": [
+						"onAfterEdit"
+					]
+				},
+				"Button5": {
+					"type": "button",
+					"top": 319,
+					"left": 700,
+					"width": 240,
+					"height": 20,
+					"sizingX": "move",
+					"text": "Add picture expression",
+					"focusable": false,
+					"method": "ObjectMethods/Button5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button3": {
+					"type": "button",
+					"top": 460,
+					"left": 700,
+					"width": 240,
+					"height": 20,
+					"sizingX": "move",
+					"text": "Add picture expression",
+					"focusable": false,
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button7": {
+					"type": "button",
+					"top": 660,
+					"left": 700,
+					"width": 240,
+					"height": 20,
+					"sizingX": "move",
+					"text": "Add picture expression",
+					"focusable": false,
+					"method": "ObjectMethods/Button7.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"TxtInfo8": {
+					"type": "text",
+					"top": 64,
+					"left": 40,
+					"width": 620,
+					"height": 20,
+					"sizingX": "move",
+					"class": "default",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"text": "Insert an anchored image based on an expression…"
+				},
+				"Ligne3": {
+					"type": "line",
+					"top": 220,
+					"left": 730,
+					"width": 180,
+					"sizingX": "move",
+					"stroke": "#696969"
+				},
+				"Ligne4": {
+					"type": "line",
+					"top": 360,
+					"left": 730,
+					"width": 180,
+					"sizingX": "move",
+					"stroke": "#696969"
+				},
+				"Ligne5": {
+					"type": "line",
+					"top": 500,
+					"left": 730,
+					"width": 180,
+					"sizingX": "move",
+					"stroke": "#696969"
+				},
+				"Texte4": {
+					"type": "text",
+					"top": 380,
+					"left": 680,
+					"width": 280,
+					"height": 80,
+					"sizingX": "move",
+					"textAlign": "center",
+					"text": "Ex 2: The associated expression is the name of a picture FIELD of the database.\r(The picture will be added at the top center of the document)"
+				},
+				"Texte5": {
+					"type": "text",
+					"top": 240,
+					"left": 680,
+					"width": 280,
+					"height": 80,
+					"sizingX": "move",
+					"textAlign": "center",
+					"text": "Ex 1: The associated expression is the name of the VARIABLE above.\r(The picture will be added at the top left of the document)"
+				},
+				"Texte6": {
+					"type": "text",
+					"top": 520,
+					"left": 680,
+					"width": 280,
+					"height": 80,
+					"sizingX": "move",
+					"textAlign": "center",
+					"text": "Ex 2: The associated expression is the name of a METHOD returning a picture.\r(The picture will be added at the top right of the document)"
+				},
+				"Check Box": {
+					"type": "checkbox",
+					"top": 700,
+					"left": 810,
+					"width": 100,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "bTrace",
+					"text": "Trace",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Button2": {
+					"type": "button",
+					"top": 180,
+					"left": 700,
+					"width": 240,
+					"height": 20,
+					"sizingX": "move",
+					"text": "WP Set attribute (expression)",
+					"focusable": false,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"WParea1": {
+					"type": "write",
+					"top": 90,
+					"left": 40,
+					"width": 620,
+					"height": 630,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "WParea",
+					"hideFocusRing": true,
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"zoom": 75,
+					"showSelection": true,
+					"showHorizontalRuler": false,
+					"showVerticalRuler": false,
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onSelectionChange",
+						"onAfterEdit"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 340,
+					"left": 700,
+					"width": 240,
+					"height": 20,
+					"sizingX": "move",
+					"text": "ST COMPUTE EXPRESSIONS",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button6": {
+					"type": "button",
+					"top": 500,
+					"left": 700,
+					"width": 240,
+					"height": 20,
+					"sizingX": "move",
+					"text": "WP RESET ATTRIBUTE",
+					"focusable": false,
+					"method": "ObjectMethods/Button6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button8": {
+					"type": "button",
+					"top": 660,
+					"left": 700,
+					"width": 240,
+					"height": 20,
+					"sizingX": "move",
+					"text": "ST FREEZE EXPRESSIONS",
+					"focusable": false,
+					"method": "ObjectMethods/Button8.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Texte": {
+					"type": "text",
+					"top": 90,
+					"left": 680,
+					"width": 280,
+					"height": 80,
+					"sizingX": "move",
+					"textAlign": "center",
+					"text": "The \"wk image expression\" attribute can be associated to anchored pictures. Pictures returned by expressions are displayed as soon as the expression is associated."
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 410,
+					"left": 680,
+					"width": 280,
+					"height": 80,
+					"sizingX": "move",
+					"textAlign": "center",
+					"text": "As with all other attributes, \"wk image expression\" can be reset. The image remains, but no longer depends on the expression."
+				},
+				"Texte2": {
+					"type": "text",
+					"top": 250,
+					"left": 680,
+					"width": 280,
+					"height": 80,
+					"sizingX": "move",
+					"textAlign": "center",
+					"text": "All expressions associated to the document can be updated using the ST COMPUTE EXPRESSION command. This is also the case for anchored images."
+				},
+				"Texte3": {
+					"type": "text",
+					"top": 570,
+					"left": 680,
+					"width": 280,
+					"height": 80,
+					"sizingX": "move",
+					"textAlign": "center",
+					"text": "The \"ST Freeze expression\" command does nearly the same thing as \"WP Reset attribute\" except that the expression is recalculated before beeing frozen."
+				},
+				"Ligne": {
+					"type": "line",
+					"top": 230,
+					"left": 730,
+					"width": 180,
+					"sizingX": "move",
+					"stroke": "#696969"
+				},
+				"Ligne1": {
+					"type": "line",
+					"top": 390,
+					"left": 730,
+					"width": 180,
+					"sizingX": "move",
+					"stroke": "#696969"
+				},
+				"Ligne2": {
+					"type": "line",
+					"top": 550,
+					"left": 730,
+					"width": 180,
+					"sizingX": "move",
+					"stroke": "#696969"
+				},
+				"Check Box1": {
+					"type": "checkbox",
+					"top": 700,
+					"left": 810,
+					"width": 100,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "bTrace",
+					"text": "Trace",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}
