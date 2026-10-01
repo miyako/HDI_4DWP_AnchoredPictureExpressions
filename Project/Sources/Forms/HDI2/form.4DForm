@@ -1,0 +1,484 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 760,
+	"windowMaxWidth": 32000,
+	"windowMinHeight": 620,
+	"windowMaxHeight": 32000,
+	"width": 1000,
+	"height": 760,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Tab Control": {
+					"type": "tab",
+					"top": 20,
+					"left": 20,
+					"width": 960,
+					"height": 720,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						":xliff:HDI2_TabInfo",
+						":xliff:HDI2_TabAddPicture",
+						":xliff:HDI2_TabSetAttribute"
+					],
+					"action": "gotoPage",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Picture3": {
+					"type": "picture",
+					"top": 503,
+					"left": 165,
+					"width": 226,
+					"height": 136,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture3.png"
+				},
+				"Picture4": {
+					"type": "picture",
+					"top": 486,
+					"left": 420,
+					"width": 123,
+					"height": 170,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture4.png"
+				},
+				"Picture6": {
+					"type": "picture",
+					"top": 468,
+					"left": 588,
+					"width": 223,
+					"height": 203,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture6.png"
+				},
+				"Round Rectangle": {
+					"type": "rectangle",
+					"top": 506,
+					"left": 170,
+					"width": 220,
+					"height": 40,
+					"fill": "transparent",
+					"stroke": "#FF6347",
+					"strokeWidth": 3,
+					"borderRadius": 5
+				},
+				"Round Rectangle1": {
+					"type": "rectangle",
+					"top": 520,
+					"left": 411,
+					"width": 144,
+					"height": 40,
+					"fill": "transparent",
+					"stroke": "#FF6347",
+					"strokeWidth": 3,
+					"borderRadius": 5
+				},
+				"Round Rectangle2": {
+					"type": "rectangle",
+					"top": 513,
+					"left": 575,
+					"width": 246,
+					"height": 40,
+					"fill": "transparent",
+					"stroke": "#FF6347",
+					"strokeWidth": 3,
+					"borderRadius": 5
+				},
+				"WParea2": {
+					"type": "write",
+					"top": 80,
+					"left": 40,
+					"width": 920,
+					"height": 350,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "WParea",
+					"enterable": false,
+					"hideFocusRing": true,
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"showSelection": true,
+					"showHorizontalRuler": false,
+					"showVerticalRuler": false,
+					"layoutMode": "embedded",
+					"borderStyle": "none",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onSelectionChange",
+						"onAfterEdit"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"TxtInfo7": {
+					"type": "text",
+					"top": 600,
+					"left": 680,
+					"width": 280,
+					"height": 40,
+					"sizingX": "move",
+					"class": "default hdi-alert",
+					"textAlign": "center",
+					"text": ":xliff:HDI2_NoteAllowMethod"
+				},
+				"WParea": {
+					"type": "write",
+					"top": 90,
+					"left": 40,
+					"width": 620,
+					"height": 630,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "WParea",
+					"hideFocusRing": true,
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"showSelection": true,
+					"showHorizontalRuler": false,
+					"showVerticalRuler": false,
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onSelectionChange",
+						"onAfterEdit"
+					]
+				},
+				"Variable": {
+					"type": "input",
+					"top": 90,
+					"left": 710,
+					"width": 220,
+					"height": 110,
+					"sizingX": "move",
+					"dataSource": "vPicture",
+					"dataSourceTypeHint": "picture",
+					"pictureFormat": "truncatedCenter",
+					"dragging": "custom",
+					"method": "ObjectMethods/Variable.4dm",
+					"events": [
+						"onAfterEdit"
+					]
+				},
+				"Button5": {
+					"type": "button",
+					"top": 319,
+					"left": 700,
+					"width": 240,
+					"sizingX": "move",
+					"text": ":xliff:HDI2_BtnAddPictureExpression",
+					"focusable": false,
+					"method": "ObjectMethods/Button5.4dm",
+					"events": [
+						"onClick"
+					],
+					"class": "default"
+				},
+				"Button3": {
+					"type": "button",
+					"top": 460,
+					"left": 700,
+					"width": 240,
+					"sizingX": "move",
+					"text": ":xliff:HDI2_BtnAddPictureExpression",
+					"focusable": false,
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick"
+					],
+					"class": "default"
+				},
+				"Button7": {
+					"type": "button",
+					"top": 660,
+					"left": 700,
+					"width": 240,
+					"sizingX": "move",
+					"text": ":xliff:HDI2_BtnAddPictureExpression",
+					"focusable": false,
+					"method": "ObjectMethods/Button7.4dm",
+					"events": [
+						"onClick"
+					],
+					"class": "default"
+				},
+				"TxtInfo8": {
+					"type": "text",
+					"top": 64,
+					"left": 40,
+					"width": 620,
+					"height": 20,
+					"sizingX": "move",
+					"class": "default",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"text": ":xliff:HDI2_HeaderInsertAnchored",
+					"stroke": "automatic"
+				},
+				"Ligne3": {
+					"type": "line",
+					"top": 220,
+					"left": 730,
+					"width": 180,
+					"sizingX": "move",
+					"class": "hdi-muted"
+				},
+				"Ligne4": {
+					"type": "line",
+					"top": 360,
+					"left": 730,
+					"width": 180,
+					"sizingX": "move",
+					"class": "hdi-muted"
+				},
+				"Ligne5": {
+					"type": "line",
+					"top": 500,
+					"left": 730,
+					"width": 180,
+					"sizingX": "move",
+					"class": "hdi-muted"
+				},
+				"Texte4": {
+					"type": "text",
+					"top": 380,
+					"left": 680,
+					"width": 280,
+					"height": 80,
+					"sizingX": "move",
+					"textAlign": "center",
+					"text": ":xliff:HDI2_Ex2Field",
+					"stroke": "automatic"
+				},
+				"Texte5": {
+					"type": "text",
+					"top": 240,
+					"left": 680,
+					"width": 280,
+					"height": 80,
+					"sizingX": "move",
+					"textAlign": "center",
+					"text": ":xliff:HDI2_Ex1Variable",
+					"stroke": "automatic"
+				},
+				"Texte6": {
+					"type": "text",
+					"top": 520,
+					"left": 680,
+					"width": 280,
+					"height": 80,
+					"sizingX": "move",
+					"textAlign": "center",
+					"text": ":xliff:HDI2_Ex3Method",
+					"stroke": "automatic"
+				},
+				"Check Box": {
+					"type": "checkbox",
+					"top": 700,
+					"left": 810,
+					"width": 100,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "bTrace",
+					"text": ":xliff:HDI2_CheckTrace",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Button2": {
+					"type": "button",
+					"top": 180,
+					"left": 700,
+					"width": 240,
+					"sizingX": "move",
+					"text": ":xliff:HDI2_BtnSetAttribute",
+					"focusable": false,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					],
+					"class": "default"
+				},
+				"WParea1": {
+					"type": "write",
+					"top": 90,
+					"left": 40,
+					"width": 620,
+					"height": 630,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "WParea",
+					"hideFocusRing": true,
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"zoom": 75,
+					"showSelection": true,
+					"showHorizontalRuler": false,
+					"showVerticalRuler": false,
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onSelectionChange",
+						"onAfterEdit"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 340,
+					"left": 700,
+					"width": 240,
+					"sizingX": "move",
+					"text": ":xliff:HDI2_BtnComputeExpressions",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					],
+					"class": "default"
+				},
+				"Button6": {
+					"type": "button",
+					"top": 500,
+					"left": 700,
+					"width": 240,
+					"sizingX": "move",
+					"text": ":xliff:HDI2_BtnResetAttribute",
+					"focusable": false,
+					"method": "ObjectMethods/Button6.4dm",
+					"events": [
+						"onClick"
+					],
+					"class": "default"
+				},
+				"Button8": {
+					"type": "button",
+					"top": 660,
+					"left": 700,
+					"width": 240,
+					"sizingX": "move",
+					"text": ":xliff:HDI2_BtnFreezeExpressions",
+					"focusable": false,
+					"method": "ObjectMethods/Button8.4dm",
+					"events": [
+						"onClick"
+					],
+					"class": "default"
+				},
+				"Texte": {
+					"type": "text",
+					"top": 90,
+					"left": 680,
+					"width": 280,
+					"height": 80,
+					"sizingX": "move",
+					"textAlign": "center",
+					"text": ":xliff:HDI2_TextImageExpression",
+					"stroke": "automatic"
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 410,
+					"left": 680,
+					"width": 280,
+					"height": 80,
+					"sizingX": "move",
+					"textAlign": "center",
+					"text": ":xliff:HDI2_TextReset",
+					"stroke": "automatic"
+				},
+				"Texte2": {
+					"type": "text",
+					"top": 250,
+					"left": 680,
+					"width": 280,
+					"height": 80,
+					"sizingX": "move",
+					"textAlign": "center",
+					"text": ":xliff:HDI2_TextCompute",
+					"stroke": "automatic"
+				},
+				"Texte3": {
+					"type": "text",
+					"top": 570,
+					"left": 680,
+					"width": 280,
+					"height": 80,
+					"sizingX": "move",
+					"textAlign": "center",
+					"text": ":xliff:HDI2_TextFreeze",
+					"stroke": "automatic"
+				},
+				"Ligne": {
+					"type": "line",
+					"top": 230,
+					"left": 730,
+					"width": 180,
+					"sizingX": "move",
+					"class": "hdi-muted"
+				},
+				"Ligne1": {
+					"type": "line",
+					"top": 390,
+					"left": 730,
+					"width": 180,
+					"sizingX": "move",
+					"class": "hdi-muted"
+				},
+				"Ligne2": {
+					"type": "line",
+					"top": 550,
+					"left": 730,
+					"width": 180,
+					"sizingX": "move",
+					"class": "hdi-muted"
+				},
+				"Check Box1": {
+					"type": "checkbox",
+					"top": 700,
+					"left": 810,
+					"width": 100,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "bTrace",
+					"text": ":xliff:HDI2_CheckTrace",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

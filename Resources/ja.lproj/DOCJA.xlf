@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="DOC" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="DOC_Input_LabelSamplePict" resname="DOC_Input_LabelSamplePict">
+				<source>SamplePict : </source>
+				<target>サンプル画像 : </target>
+			</trans-unit>
+			<trans-unit id="DOC_Input_LabelTitle" resname="DOC_Input_LabelTitle">
+				<source>Title :</source>
+				<target>タイトル :</target>
+			</trans-unit>
+			<trans-unit id="DOC_Input_LabelOrder" resname="DOC_Input_LabelOrder">
+				<source>Order:</source>
+				<target>順序:</target>
+			</trans-unit>
+			<trans-unit id="DOC_Output_HeaderOrder" resname="DOC_Output_HeaderOrder">
+				<source>Order</source>
+				<target>順序</target>
+			</trans-unit>
+			<trans-unit id="DOC_Output_HeaderTitle" resname="DOC_Output_HeaderTitle">
+				<source>Title : </source>
+				<target>タイトル : </target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
