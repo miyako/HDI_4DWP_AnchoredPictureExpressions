@@ -1,5 +1,5 @@
-C_COLLECTION:C1488($col)
-C_OBJECT:C1216($elem)
+var $col : Collection
+var $elem : Object
 
 If (bTrace)
 	TRACE:C157

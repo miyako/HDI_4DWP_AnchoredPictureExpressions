@@ -187,7 +187,8 @@
 					"width": 83,
 					"height": 17,
 					"textAlign": "right",
-					"text": "SamplePict : "
+					"text": ":xliff:DOC_Input_LabelSamplePict",
+					"stroke": "automatic"
 				},
 				"SamplePict": {
 					"type": "input",
@@ -197,7 +198,7 @@
 					"height": 250,
 					"dataSource": "[DOC:1]SamplePict:5",
 					"dataSourceTypeHint": "picture",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"scrollbarVertical": "visible",
 					"scrollbarHorizontal": "visible",
@@ -221,7 +222,8 @@
 					"width": 83,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Title :"
+					"text": ":xliff:DOC_Input_LabelTitle",
+					"stroke": "automatic"
 				},
 				"SamplePict1": {
 					"type": "input",
@@ -231,7 +233,7 @@
 					"height": 17,
 					"dataSource": "[DOC:1]Title:3",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"dragging": "custom",
 					"events": [
@@ -292,7 +294,8 @@
 					"width": 83,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Order:"
+					"text": ":xliff:DOC_Input_LabelOrder",
+					"stroke": "automatic"
 				},
 				"SamplePict2": {
 					"type": "input",
@@ -303,7 +306,7 @@
 					"dataSource": "[DOC:1]Order:4",
 					"dataSourceTypeHint": "integer",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"dragging": "custom",
 					"events": [

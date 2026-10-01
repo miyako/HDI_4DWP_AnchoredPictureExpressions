@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="HDI2" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="HDI2_TabInfo" resname="HDI2_TabInfo">
+				<source>Info</source>
+				<target>Info</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TabAddPicture" resname="HDI2_TabAddPicture">
+				<source>Add picture</source>
+				<target>Add picture</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TabSetAttribute" resname="HDI2_TabSetAttribute">
+				<source>Set attribute</source>
+				<target>Set attribute</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnAddPictureExpression" resname="HDI2_BtnAddPictureExpression">
+				<source>Add picture expression</source>
+				<target>Add picture expression</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnSetAttribute" resname="HDI2_BtnSetAttribute">
+				<source>WP Set attribute (expression)</source>
+				<target>WP Set attribute (expression)</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnComputeExpressions" resname="HDI2_BtnComputeExpressions">
+				<source>ST COMPUTE EXPRESSIONS</source>
+				<target>ST COMPUTE EXPRESSIONS</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnResetAttribute" resname="HDI2_BtnResetAttribute">
+				<source>WP RESET ATTRIBUTE</source>
+				<target>WP RESET ATTRIBUTE</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnFreezeExpressions" resname="HDI2_BtnFreezeExpressions">
+				<source>ST FREEZE EXPRESSIONS</source>
+				<target>ST FREEZE EXPRESSIONS</target>
+			</trans-unit>
+			<trans-unit id="HDI2_CheckTrace" resname="HDI2_CheckTrace">
+				<source>Trace</source>
+				<target>Trace</target>
+			</trans-unit>
+			<trans-unit id="HDI2_NoteAllowMethod" resname="HDI2_NoteAllowMethod">
+				<source>Note: This method must be "allowed" first (see the code)</source>
+				<target>Note: This method must be "allowed" first (see the code)</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderInsertAnchored" resname="HDI2_HeaderInsertAnchored">
+				<source>Insert an anchored image based on an expression…</source>
+				<target>Insert an anchored image based on an expression…</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Ex1Variable" resname="HDI2_Ex1Variable">
+				<source>Ex 1: The associated expression is the name of the VARIABLE above.&#13;(The picture will be added at the top left of the document)</source>
+				<target>Ex 1: The associated expression is the name of the VARIABLE above.&#13;(The picture will be added at the top left of the document)</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Ex2Field" resname="HDI2_Ex2Field">
+				<source>Ex 2: The associated expression is the name of a picture FIELD of the database.&#13;(The picture will be added at the top center of the document)</source>
+				<target>Ex 2: The associated expression is the name of a picture FIELD of the database.&#13;(The picture will be added at the top center of the document)</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Ex3Method" resname="HDI2_Ex3Method">
+				<source>Ex 3: The associated expression is the name of a METHOD returning a picture.&#13;(The picture will be added at the top right of the document)</source>
+				<target>Ex 3: The associated expression is the name of a METHOD returning a picture.&#13;(The picture will be added at the top right of the document)</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TextImageExpression" resname="HDI2_TextImageExpression">
+				<source>The "wk image expression" attribute can be associated to anchored pictures. Pictures returned by expressions are displayed as soon as the expression is associated.</source>
+				<target>The "wk image expression" attribute can be associated to anchored pictures. Pictures returned by expressions are displayed as soon as the expression is associated.</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TextCompute" resname="HDI2_TextCompute">
+				<source>All expressions associated to the document can be updated using the ST COMPUTE EXPRESSION command. This is also the case for anchored images.</source>
+				<target>All expressions associated to the document can be updated using the ST COMPUTE EXPRESSION command. This is also the case for anchored images.</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TextReset" resname="HDI2_TextReset">
+				<source>As with all other attributes, "wk image expression" can be reset. The image remains, but no longer depends on the expression.</source>
+				<target>As with all other attributes, "wk image expression" can be reset. The image remains, but no longer depends on the expression.</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TextFreeze" resname="HDI2_TextFreeze">
+				<source>The "ST Freeze expression" command does nearly the same thing as "WP Reset attribute" except that the expression is recalculated before being frozen.</source>
+				<target>The "ST Freeze expression" command does nearly the same thing as "WP Reset attribute" except that the expression is recalculated before being frozen.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

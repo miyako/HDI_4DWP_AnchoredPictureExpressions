@@ -1,5 +1,5 @@
 
-C_OBJECT:C1216($obImage)
+var $obImage : Object
 
 If (bTrace)
 	TRACE:C157

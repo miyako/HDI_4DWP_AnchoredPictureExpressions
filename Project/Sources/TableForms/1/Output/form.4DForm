@@ -58,7 +58,8 @@
 					"width": 64,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "Order"
+					"text": ":xliff:DOC_Output_HeaderOrder",
+					"stroke": "#000000"
 				},
 				"S2_Text": {
 					"type": "text",
@@ -67,7 +68,8 @@
 					"width": 280,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "Title : "
+					"text": ":xliff:DOC_Output_HeaderTitle",
+					"stroke": "#000000"
 				},
 				"Rectangle6": {
 					"type": "rectangle",
@@ -76,7 +78,8 @@
 					"width": 960,
 					"height": 25,
 					"sizingX": "grow",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"fill": "automatic"
 				},
 				"S1_Field": {
 					"type": "input",
@@ -114,7 +117,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[DOC:1]Title:3",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",

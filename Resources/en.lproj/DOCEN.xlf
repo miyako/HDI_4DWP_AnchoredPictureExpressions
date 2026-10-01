@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="DOC" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="DOC_Input_LabelSamplePict" resname="DOC_Input_LabelSamplePict">
+				<source>SamplePict : </source>
+				<target>SamplePict : </target>
+			</trans-unit>
+			<trans-unit id="DOC_Input_LabelTitle" resname="DOC_Input_LabelTitle">
+				<source>Title :</source>
+				<target>Title :</target>
+			</trans-unit>
+			<trans-unit id="DOC_Input_LabelOrder" resname="DOC_Input_LabelOrder">
+				<source>Order:</source>
+				<target>Order:</target>
+			</trans-unit>
+			<trans-unit id="DOC_Output_HeaderOrder" resname="DOC_Output_HeaderOrder">
+				<source>Order</source>
+				<target>Order</target>
+			</trans-unit>
+			<trans-unit id="DOC_Output_HeaderTitle" resname="DOC_Output_HeaderTitle">
+				<source>Title : </source>
+				<target>Title : </target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="HDI2" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="HDI2_TabInfo" resname="HDI2_TabInfo">
+				<source>Info</source>
+				<target>情報</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TabAddPicture" resname="HDI2_TabAddPicture">
+				<source>Add picture</source>
+				<target>画像を追加</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TabSetAttribute" resname="HDI2_TabSetAttribute">
+				<source>Set attribute</source>
+				<target>属性を設定</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnAddPictureExpression" resname="HDI2_BtnAddPictureExpression">
+				<source>Add picture expression</source>
+				<target>画像式を追加</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnSetAttribute" resname="HDI2_BtnSetAttribute">
+				<source>WP Set attribute (expression)</source>
+				<target>WP Set attribute (式)</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnComputeExpressions" resname="HDI2_BtnComputeExpressions">
+				<source>ST COMPUTE EXPRESSIONS</source>
+				<target>ST COMPUTE EXPRESSIONS</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnResetAttribute" resname="HDI2_BtnResetAttribute">
+				<source>WP RESET ATTRIBUTE</source>
+				<target>WP RESET ATTRIBUTE</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnFreezeExpressions" resname="HDI2_BtnFreezeExpressions">
+				<source>ST FREEZE EXPRESSIONS</source>
+				<target>ST FREEZE EXPRESSIONS</target>
+			</trans-unit>
+			<trans-unit id="HDI2_CheckTrace" resname="HDI2_CheckTrace">
+				<source>Trace</source>
+				<target>トレース</target>
+			</trans-unit>
+			<trans-unit id="HDI2_NoteAllowMethod" resname="HDI2_NoteAllowMethod">
+				<source>Note: This method must be "allowed" first (see the code)</source>
+				<target>注意: このメソッドは最初に「許可」する必要があります(コードを参照)</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderInsertAnchored" resname="HDI2_HeaderInsertAnchored">
+				<source>Insert an anchored image based on an expression…</source>
+				<target>式に基づいてアンカー画像を挿入…</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Ex1Variable" resname="HDI2_Ex1Variable">
+				<source>Ex 1: The associated expression is the name of the VARIABLE above.&#13;(The picture will be added at the top left of the document)</source>
+				<target>例1: 関連付ける式は上の変数の名前です。&#13;(画像はドキュメントの左上に追加されます)</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Ex2Field" resname="HDI2_Ex2Field">
+				<source>Ex 2: The associated expression is the name of a picture FIELD of the database.&#13;(The picture will be added at the top center of the document)</source>
+				<target>例2: 関連付ける式はデータベースの画像フィールドの名前です。&#13;(画像はドキュメントの上部中央に追加されます)</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Ex3Method" resname="HDI2_Ex3Method">
+				<source>Ex 3: The associated expression is the name of a METHOD returning a picture.&#13;(The picture will be added at the top right of the document)</source>
+				<target>例3: 関連付ける式は画像を返すメソッドの名前です。&#13;(画像はドキュメントの右上に追加されます)</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TextImageExpression" resname="HDI2_TextImageExpression">
+				<source>The "wk image expression" attribute can be associated to anchored pictures. Pictures returned by expressions are displayed as soon as the expression is associated.</source>
+				<target>「wk image expression」属性はアンカー画像に関連付けることができます。式が返す画像は、式が関連付けられるとすぐに表示されます。</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TextCompute" resname="HDI2_TextCompute">
+				<source>All expressions associated to the document can be updated using the ST COMPUTE EXPRESSION command. This is also the case for anchored images.</source>
+				<target>ドキュメントに関連付けられたすべての式は ST COMPUTE EXPRESSION コマンドで更新できます。アンカー画像も同様です。</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TextReset" resname="HDI2_TextReset">
+				<source>As with all other attributes, "wk image expression" can be reset. The image remains, but no longer depends on the expression.</source>
+				<target>他の属性と同様に「wk image expression」もリセットできます。画像は残りますが、式には依存しなくなります。</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TextFreeze" resname="HDI2_TextFreeze">
+				<source>The "ST Freeze expression" command does nearly the same thing as "WP Reset attribute" except that the expression is recalculated before being frozen.</source>
+				<target>「ST Freeze expression」コマンドは「WP Reset attribute」とほぼ同じ動作ですが、式は固定される前に再計算されます。</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
